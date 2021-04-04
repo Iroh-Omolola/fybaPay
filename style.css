@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:  'Roboto';
+   }
+   
+   body {
+    width: 100%vw;
+    height: 100%vh;
+    font-family:  'Roboto';
+   }
+   /* ===============Landing Page1 ===================== */
+   /*******Top Nav*****/
+   .navbar-toggler{
+       display: none;
+       
+   }
+  
+   .topnav {
+       display: flex;
+       text-decoration: none;
+       width: 100%;
+       height: auto;
+       background-color: rgb(255, 255, 255);
+       border-bottom: 1px solid rgb(206, 206, 206);
+       box-shadow: 1px 1px 1px rgb(223, 219, 219);
+       text-decoration: none;
+       line-height: 70px;
+       justify-content: center;
+   }
+   
+   .topnav img{
+       margin-right: 70px;
+       margin-top: 17px;
+   }
+   .topnav li{
+       list-style: none;
+       margin-left: 42px;
+       font-size: 18px;
+       cursor: pointer;    
+   }
+    li a {
+       text-decoration: none;
+       color: rgba(19, 2, 69, 1);
+       font-weight: bold;
+   }
+   .btn{
+    background-color: #481E7E;
+    color: white;
+    border: none;
+    width: 182px;
+    height: 37px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .landing-background{
+       background: url("images/Landing-page1.png");
+       height:fit-content;
+       display: flex;
+       width: 90%;
+       justify-content: center;
+       align-items: center;
+       margin: 30px auto;
+   }
+   .collapse{
+       display: none;
+   }
+   .landing-content{
+       width: 40%;
+       margin-right: 30px;
+      margin-top: 30px;
+   }
+   .landing-content h1 {
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 34px;
+        width: 100%;
+        color: #130245;
+        margin-bottom: 18px;
+   }
+   .store-image{
+    margin-top: 40px;
+   }
+   .store-img2{
+       margin-left: 10px;
+   }
+   .landing-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #130245;
+    margin-top: 10px;
+   }
+  
+   .landing-image img{
+     width: 570px;
+     height: 570px;
+     margin-top: 30px;
+     margin-left: 20px;
+   }
+    /* ===============Features ===================== */
+    .Features{
+        background: rgb(216, 73, 73);
+        width: 1102px;
+        margin-top: 30px;
+    }
+    .features-content{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .features-content h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        text-align: center;
+        line-height: 50px;
+        color: #130245;
+        margin-bottom: 10px;
+    }
+    .features-content p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #130245;
+    }
+    .features-icons{
+        display: flex;
+        margin-top: 50px; 
+        justify-content: center;
+    }
+    .features-icon1{ 
+        width: 218px;
+        height: 151px;
+        margin: 0 20px;
+    }
+    .features-icon1 img{
+        margin-left: 70px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px
+        
+    }
+    .features-icon1 h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+    /*============= Channels====================== */
+    .channels-background{
+        background: url("images/second-background.png");
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        box-shadow: 1px ;
+        align-items: center;
+        margin: 60px auto;
+        padding: 0 40px;
+    }
+    .channels-content{
+        width: 40%;
+       margin-top: 30px;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .channels-content h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .channels-content h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .channels-content p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .channels-image img{
+        width: 340px;
+        height: 500px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+     /*============= Services====================== */
+     .service-background{
+        background:white;
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 40px auto;
+    }
+    .service-content{
+        width: 40%;
+       margin-top: 30px;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .service-content h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .service-content h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .service-content p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .service-image img{
+        width: 340px;
+        height: 500px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    /*============= Why Choose Us====================== */
+    .fourth-bg{
+        background: url("images/fourthbg.png");
+        background-repeat: no-repeat;
+        padding: 0 30px;
+        height: 640px;
+        overflow-x: hidden;
+        margin-top: 30px;
+    }
+    .choose-us-writes{
+        color: rgb(34, 28, 16);
+        margin-top:  100px;
+    }
+    .choose-us-writes h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        text-align: center;
+        line-height: 50px;
+        color: #130245;
+        margin-bottom: 10px;
+    }
+    .choose-us-writes p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #130245;
+    }
+    .choose-us-mini-icons{
+        display: flex;
+        margin-top: 60px; 
+        justify-content: center;
+    }
+    .choose-us-icon1{ 
+        width: 218px;
+        height: 151px;
+        margin: 0 20px;
+    }
+    .choose-us-icon1 img{
+        margin-left: 70px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px
+        
+    }
+    .choose-us-icon1 h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+/* ==============Send and Withdraw Money==============*/
+    .send-money-bg{
+        background:url("images/withdraw-money.png");
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 40px auto;
+    }
+    .send-money-write-ups{
+        width: 40%;
+       margin-top: 30px;
+       text-align: start;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .send-money-write-ups h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .send-money-write-ups h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .send-money-write-ups p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .send-money-image img{
+        width: 340px;
+        height: 500px;
+        margin-top: 167px;
+        margin-left: 20px;
+    }
+    /* ==============Bills Payment==============*/
+
+    .bills-payment-bg{
+        background:url("images/Bills-bg.png");
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 50px auto;
+    }
+    .bills-payment-write-ups{
+        width: 40%;
+       margin-top: -60px;
+       text-align: end;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .bills-payment-write-ups h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .bills-payment-write-ups h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .bills-payment-write-ups p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .bills-payment-image img{
+        width: 380px;
+        height: 450px;
+        margin-bottom:-120px;
+        margin-left: 20px;
+    }
+
+     /* ==============Savings==============*/
+
+     .savings-bg{
+        background:url("images/withdraw-money.png");
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 40px auto;
+    }
+    .savings-write-ups{
+        width: 40%;
+       margin-top: 30px;
+       text-align: start;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .savings-write-ups h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .savings-write-ups h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .savings-write-ups p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .savings-image img{
+        width: 340px;
+        height: 450px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+     /* ==============  Grow Wealth==============*/
+    .wealth-growth-bg{
+        background:url("images/Bills-bg.png");
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 0px auto;
+    }
+    .wealth-growth-write-ups{
+        width: 40%;
+       margin-top: -60px;
+       text-align: end;
+    }
+    .fa-minus{
+        color: rgba(249, 182, 0, 1);
+    }
+    .wealth-growth-write-ups h3{
+        color:rgba(249, 182, 0, 1);
+        font-size: 26px;
+    }
+    .wealth-growth-write-ups h1 {
+         font-style: normal;
+         font-weight: bolder;
+         font-size: 34px;
+         width: 100%;
+         color: #130245;
+         margin-bottom: 18px;
+    }
+    .wealth-growth-write-ups p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+    }
+   
+    .wealth-growth-image img{
+        width: 380px;
+        height: 450px;
+        margin-bottom:-120px;
+        margin-left: 20px;
+    }
+   /*============= Testimonials====================== */ 
+   .Testimonials h1{
+       font-style: normal;
+         font-weight: bolder;
+         font-size: 37px;
+         width: 100%;
+         color: #130245;
+         text-align: center;
+         margin-top: 30px;
+   }
+.testimonial-bg{
+        background:white;
+        display: flex;
+        width: 100%;
+        height: 570px;
+        justify-content: space-around;
+        padding: 0 40px;
+        align-items: center;
+        text-align: end;
+        margin: 0px auto;
+    }
+   
+    .wealth-growth-image img{
+        width: 380px;
+        height: 450px;
+        margin-bottom:-120px;
+        margin-left: 20px;
+    }
+  .img3{
+    margin-top: 80px
+  }
+ .testimonials-write-ups p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #130245;
+        margin-top: 10px;
+        width: 440px;
+    }
+    .fa-circle{
+        color: #481E7E;
+        font-size: 10px;
+        text-align: start;
+        margin-top: 20px;
+    }
+    /*=============Footer 1====================== */
+    .google-store-bg{
+        background: rgba(242, 245, 248, 1);
+        height: auto;
+        overflow-x: hidden;
+        margin-top: 30px;
+    }
+    .google-store-writes{
+        color: rgb(34, 28, 16);
+        margin-top:  20px;
+    }
+    .google-store-writes h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        text-align: center;
+        line-height: 50px;
+        color: #130245;
+    }
+    .google-store-writes p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #130245;
+    }
+    .google-store-mini-icons{
+        display: flex;
+        margin-top: 20px; 
+        justify-content: center;
+    }
+    .google-store-icon1{ 
+        width: 180px;
+        height: 60px;
+    }
+
+    /*=============Footer 2======================*/
+    
+    .footer-bg{
+        background:#481E7E;
+        display: flex;
+        width: 100%;
+        height: 370px;
+        font-size: 15px;
+        justify-content: space-around;
+        padding: 0 40px;
+        color: white;
+        align-items: center;
+        text-align: start;
+        margin: 0px auto;
+        list-style: none;
+    }
+    .footer-two ul li{
+        list-style: none;
+        line-height: 30px;
+    }
+    .footer-three ul li{
+        list-style: none;
+        line-height: 30px;
+    }
+    .footer-four ul li{
+        list-style: none;
+        line-height: 30px;
+    }
+    .footer-five{
+        margin-top: -100px;
+    }
+    .fab{
+        margin-left: 3px;
+    }
